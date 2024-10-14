@@ -441,6 +441,7 @@
     .item-about__content {
         padding: 20px 15px;
         border-radius: 16px;
+        min-height: 315px;
         backdrop-filter: blur(4px);
         border-width: 1.5px;
     }
@@ -686,6 +687,9 @@
 }
 .body_menu {
     overflow: hidden;
+}
+.fancybox-slide {
+    padding: 0 10px;
 }
 }
 
