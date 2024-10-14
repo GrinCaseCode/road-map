@@ -430,6 +430,26 @@ form {
 	background: #ede6d6;
 	z-index: -1;
 }
+.item-advantage .title-block::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 0.365vw;
+    height: 3.958vw;
+    left: -0.052vw;
+    top: 0.573vw;
+    background-color: #484337;
+}
+.item-advantage .title-block::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 0.208vw;
+    height: 0.417vw;
+    left: 4.844vw;
+    top: 0;
+    background-color: #484337;
+}
 .title-block {
 	margin-bottom: 0.83vw;
 	font-size: 1.67vw;

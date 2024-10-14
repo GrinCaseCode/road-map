@@ -691,6 +691,17 @@
 .fancybox-slide {
     padding: 0 10px;
 }
+.item-advantage .title-block::before {
+    width: 9px;
+    height: 36px;
+    left: -1px;
+    top: 32px;
+}
+.item-advantage .title-block::after {
+    width: 3px;
+    height: 10px;
+    left: 74px;
+}
 }
 
 /* Small Devices, Tablets */
