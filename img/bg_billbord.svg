@@ -1,0 +1,25 @@
+<svg width="1816" height="1025" viewBox="0 0 1816 1025" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_61_221)">
+<rect width="1816" height="1025" rx="16" fill="#161213"/>
+<mask id="mask0_61_221" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="290" y="21" width="1048" height="356">
+<ellipse cx="814" cy="199" rx="524" ry="178" fill="#D9D9D9"/>
+<path d="M1337.5 199C1337.5 223.362 1322.97 246.647 1296.51 267.896C1270.06 289.141 1231.75 308.296 1184.36 324.392C1089.6 356.581 958.659 376.5 814 376.5C669.341 376.5 538.398 356.581 443.637 324.392C396.254 308.296 357.945 289.141 331.492 267.896C305.034 246.647 290.5 223.362 290.5 199C290.5 174.638 305.034 151.353 331.492 130.104C357.945 108.859 396.254 89.7042 443.637 73.6084C538.398 41.4186 669.341 21.5 814 21.5C958.659 21.5 1089.6 41.4186 1184.36 73.6084C1231.75 89.7042 1270.06 108.859 1296.51 130.104C1322.97 151.353 1337.5 174.638 1337.5 199Z" stroke="white" stroke-opacity="0.16"/>
+</mask>
+<g mask="url(#mask0_61_221)">
+<path d="M426 221.5H1351M538.555 34L538.555 394M689.993 34L689.993 394M841.431 34L841.431 394M992.869 34V394M1144.31 34V394M1295.75 34V394M426 330.912H1351M426 112.088H1351" stroke="white" stroke-opacity="0.16"/>
+</g>
+<g filter="url(#filter0_f_61_221)">
+<ellipse cx="1287.5" cy="165" rx="463.5" ry="412" fill="#897672" fill-opacity="0.25"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_61_221" x="524" y="-547" width="1527" height="1424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_61_221"/>
+</filter>
+<clipPath id="clip0_61_221">
+<rect width="1816" height="1025" rx="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
