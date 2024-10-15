@@ -27,6 +27,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     }
   }
 
+  
+
   $(".billbord").on('mousemove', function(e) {
 
 	$('.billbord__image').each(function() {
