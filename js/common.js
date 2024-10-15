@@ -27,6 +27,31 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     }
   }
 
+  $(".billbord").on('mousemove', function(e) {
+
+	$('.billbord__image').each(function() {
+		var offsetX = (e.pageX / $(window).width() - 0.5) * 60;
+		var offsetY = (e.pageY / $(window).height() - 0.5) * 60;
+
+		$(this).css('transform', 'translate(' + offsetX + 'px, ' + offsetY + 'px)');
+	});
+
+	$('.billbord__content .descr-big, .billbord__content .btn-main').each(function() {
+		var offsetX = (e.pageX / $(window).width() - 0.5) * 70;
+		var offsetY = (e.pageY / $(window).height() - 0.5) *70;
+
+		$(this).css('transform', 'translate(' + offsetX + 'px, ' + offsetY + 'px)');
+	});
+
+	$('.billbord__content .title-big').each(function() {
+		var offsetX = (e.pageX / $(window).width() - 0.5) * 80;
+		var offsetY = (e.pageY / $(window).height() - 0.5) * 80;
+
+		$(this).css('transform', 'translate(' + offsetX + 'px, ' + offsetY + 'px)');
+	});
+
+});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
