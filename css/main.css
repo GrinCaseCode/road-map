@@ -200,6 +200,7 @@ form {
 	color: #fff;
 	font-family: 'Alethia Pro';
 	transition: all 0.3s;
+	position: relative;
 }
 .title-big span {
 	color: #ffcd00;
@@ -1090,4 +1091,52 @@ form {
 }
 .title-small_footer i {
 	display: none;
+}
+
+.billbord .btn-main,
+.billbord .descr-big,
+.billbord .title-big {
+	opacity: 0;
+	top: 50px;
+	animation: inUp  0.7s ease;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	position: relative;
+}
+.billbord .descr-big {
+	animation-delay: 1s;
+}
+.billbord .btn-main {
+	top: 0 !important;
+	animation-delay: 1.5s;
+}
+@keyframes inUp {
+    from {
+		top: 50px;
+		opacity: 0;
+    }
+    to {
+		top: 0;
+		opacity: 1;
+    }
+}
+.billbord__image img {
+	opacity: 0;
+	top: 50px;
+	animation: inUpZoom  0.7s ease;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	position: relative;
+}
+@keyframes inUpZoom {
+    from {
+		top: 50px;
+		opacity: 0;
+		transform: scale(0.7);
+    }
+    to {
+		top: 0;
+		opacity: 1;
+		transform: scale(1);
+    }
 }

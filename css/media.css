@@ -702,6 +702,12 @@
     height: 10px;
     left: 74px;
 }
+.billbord__image,
+.billbord .btn-main, 
+.billbord .descr-big, 
+.billbord .title-big {
+    transform: none !important;
+}
 }
 
 /* Small Devices, Tablets */
