@@ -708,6 +708,32 @@
 .billbord .title-big {
     transform: none !important;
 }
+
+.documents {
+	padding-bottom: 100px;
+}
+.documents .head-section {
+    margin-bottom: 25px;
+	max-width: 920px;
+}
+.slider-documents .slick-slide {
+	width: 280px;
+	margin-right: 15px;
+}
+.slider-documents {
+	margin-right: -5.3646vw;
+}
+.slider-wrapper-documents {
+	padding-top: 0;
+    padding-bottom: 60px;
+}
+.item-document {
+	height: 381px;
+	border-radius: 16px;
+}
+.item-document img {
+	border-radius: 16px;
+}
 }
 
 /* Small Devices, Tablets */

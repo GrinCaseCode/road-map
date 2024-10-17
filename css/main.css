@@ -192,7 +192,7 @@ form {
 	width: 17.396vw;
 }
 .title-big {
-	font-size: 6.46vw;
+	font-size: 6.042vw;
 	margin-bottom: 1.04vw;
 	line-height: 110%;
 	letter-spacing: -0.02em;
@@ -906,7 +906,7 @@ form {
     background: linear-gradient(180deg, rgba(44, 37, 34, 0) 26.33%, #2C2522 84.69%);
 }
 .about {
-    padding-bottom: 8.33vw;
+    padding-bottom: 5.208vw;
 }
 .about .head-section {
     max-width: 47.66vw;
@@ -1143,4 +1143,39 @@ form {
 .billbord .title-big,
 .billbord__image {
 	transition: transform 0.05s ease-out; 
+}
+
+.documents {
+	padding-bottom: 5.208vw;
+}
+.documents .head-section {
+	max-width: 47.917vw;
+}
+.slider-documents .slick-slide {
+	width: 18.958vw;
+	margin-right: 1.563vw;
+}
+.slider-documents:not(.slick-initialized) > li:not(:first-child) {
+	display: none;
+}
+.slider-documents {
+	margin-right: -5.3646vw;
+}
+.slider-wrapper-documents {
+	padding-top: 3.3333vw;
+	position: relative;
+}
+.item-document {
+	height: 26.042vw;
+	border-radius: 0.833vw;
+	border: 1.50px solid #d8d4cc;
+	width: 100%;
+	display: block;
+}
+.item-document img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+	border-radius: 0.833vw;
 }

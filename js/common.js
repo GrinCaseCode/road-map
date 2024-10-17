@@ -109,6 +109,33 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
         });
     });
 
+	$('.slider-wrapper-documents').each(function() {
+        var $sliderWrapper = $(this);
+        var $slider = $sliderWrapper.find('.slider-documents');
+        var $status = $sliderWrapper.find('.slider-count');
+
+        $slider.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            var totalSlides = slick.slideCount;
+            var formattedCurrentSlide = ('0' + i).slice(-2); // Форматирование текущего слайда с ведущим нулем
+            var formattedTotalSlides = ('0' + totalSlides).slice(-2); // Форматирование общего количества слайдов с ведущим нулем
+            $status.text(formattedCurrentSlide + '/' + formattedTotalSlides);
+        });
+
+        $slider.slick({
+            arrows: true,
+            dots: false,
+            infinite: true,
+            touchThreshold: 1000,
+            variableWidth: true,
+            appendArrows: $sliderWrapper.find('.slider-controls'),
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: '<div class="slick-prev slick-arrow"><img src="img/prev.svg" alt="alt"></div>',
+            nextArrow: '<div class="slick-next slick-arrow"><img src="img/next.svg" alt="alt"></div>'
+        });
+    });
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	$(".directions .btn-main_more").click(function(e) {
