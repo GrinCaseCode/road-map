@@ -1179,3 +1179,247 @@ form {
     font-family: 'object-fit: cover;';
 	border-radius: 0.833vw;
 }
+
+
+.menu a {
+    border-bottom: 1px transparent solid;
+}
+.menu a:hover,
+.menu .active a {
+    color: #ffcd00;
+    border-color: #ffcd00;
+}
+.billbord__line {
+    gap: 2.6vw;
+    display: flex;
+    align-items: center;
+}
+.billbord.billbord_page .billbord__content {
+    padding-top: 5.42vw;
+    padding-bottom: 7.55vw;
+    height: auto;
+}
+.billbord.billbord_page .title-big {
+    font-size: 4.48vw;
+    max-width: 39.58vw;
+    top: 0;
+    margin: 0;
+}
+.content-services {
+    padding-top: 4.17vw;
+    padding-bottom: 5.73vw;
+    max-width: 60.94vw;
+    margin: 0 auto;
+}
+.pricelist__head {
+    padding: 0.83vw 0;
+    margin-bottom: 1.67vw;
+    border-bottom: 1px solid rgba(74, 67, 54, 0.64);
+}
+.pricelist__wrap {
+    gap: 1.67vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pricelist__column:nth-child(1) {
+    width: 20.31vw;
+}
+.pricelist__column:nth-child(2) {
+    width: 10.42vw;
+    text-align: right;
+}
+.pricelist__column:nth-child(3) {
+    width: 7.81vw;
+}
+.pricelist__column:nth-child(4) {
+    width: 20.31vw;
+}
+.pricelist {
+    margin-bottom: 2.71vw;
+}
+.pricelist p {
+    margin-bottom: 1.04vw;
+}
+.pricelist p:last-child {
+    margin-bottom: 0;
+}
+.info-services {
+    padding: 1.67vw 1.98vw;
+    margin-top: 0.83vw;
+    border-radius: 0.83vw;
+    border: 0.078vw solid #d8d4cc;
+    background: #ede6d6;
+}
+.services-section {
+    margin-top: 6.77vw;
+}
+.content-services .head-section {
+    margin-bottom: 3.33vw;
+}
+.item-rule {
+    padding: 1.67vw 1.77vw;
+    padding-bottom: 2.71vw;
+    min-height: 100%;
+    border: 0.078vw solid #d8d4cc;
+    border-radius: 0.83vw;
+    background: #fbf8f2;
+}
+.item-rule__number {
+    font-size: 3.33vw;
+    margin-bottom: 0.83vw;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #dfbc2e;
+    font-family: 'Alethia Pro';
+}
+.item-rule__payments {
+    margin: 0.83vw 0;
+}
+.item-rule__payments img {
+    width: 100%;
+    height: auto;
+}
+.item-rule ul li {
+    list-style-type: disc;
+}
+.item-rule ul {
+    margin: 1.04vw 0;
+    padding-left: 1.04vw;
+}
+.item-rule__descr {
+    font-size: 0.73vw;
+    color: rgba(37, 23, 19, 0.42);
+    line-height: 130%;
+}
+.text-services ul li {
+    padding-left: 1.46vw;
+    margin-bottom: 0.83vw;
+    position: relative;
+}
+.text-services ul li::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 0.89vw;
+    height: 0.83vw;
+    top: 0.26vw;
+    left: 0;
+    background-image: url(../img/li.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.text-services p {
+    margin-bottom: 1.25vw;
+}
+.text-services {
+    font-size: 1.04vw;
+    line-height: 130%;
+    color: rgba(74, 67, 54, 0.64);
+}
+.services-section_text .head-section {
+    margin-bottom: 1.67vw;
+}
+.services-section_text a {
+    color: #dfbc2e;
+    border-bottom: 1px #dfbc2e solid;
+}
+.services-section_text a:hover {
+    border-color: transparent;
+}
+.row.row_rules > div {
+    padding: 0 0.42vw;
+}
+.row.row_rules {
+    margin: 0 -0.42vw;
+}
+.pricelist__head .title-block {
+	margin: 0;
+}
+.pricelist__column .title-block {
+	margin: 0;
+}
+
+.content-page {
+	padding-bottom: 5.47vw;
+	max-width: 62.5vw;
+	margin: 0 auto;
+}
+.breadcrumbs {
+	font-size: 0.73vw;
+	padding-top: 1.04vw;
+	padding-bottom: 3.33vw;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: rgba(74, 67, 54, 0.32);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.breadcrumbs a {
+	color: rgba(74, 67, 54, 0.64);
+	border-bottom: 0.05vw solid rgba(74, 67, 54, 0.64);
+}
+.breadcrumbs a:hover {
+	color: rgba(74, 67, 54, 0.9);
+	border-color: rgba(74, 67, 54, 0.9);
+}
+.breadcrumbs li::after {
+	margin: 0 0.83vw;
+	font-size: 0.62vw;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+	font-weight: 400;
+	font-family: "Font Awesome 5 Pro";
+	content: "\f054";
+}
+.breadcrumbs li:last-child::after {
+	display: none;
+}
+.text-page {
+	font-size: 1.04vw;
+	line-height: 130%;
+	color: rgba(74, 67, 54, 0.64);
+}
+.page-data .head-section {
+	margin-bottom: 3.33vw;
+}
+.text-page h5,
+.text-page h4,
+.text-page h3,
+.text-page h2,
+.text-page h6 {
+	font-size: 1.458vw;
+	margin: 1.25vw 0;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	color: rgba(74, 67, 54, 0.96);
+	font-family: 'Alethia Pro';
+}
+.text-page strong {
+	font-weight: 500;
+	color: rgba(74, 67, 54, 0.96);
+}
+.text-page a {
+	color: inherit;
+}
+.text-page ul {
+	margin-bottom: 1.042vw;
+}
+.text-page ul li {
+    padding-left: 1.563vw;
+    position: relative;
+}
+.text-page ul li::before {
+    position: absolute;
+    top: 0;
+    left: 0.313vw;
+    content: "•";
+}

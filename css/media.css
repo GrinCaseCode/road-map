@@ -734,6 +734,166 @@
 .item-document img {
 	border-radius: 16px;
 }
+
+
+.billbord__line {
+	gap: 0px;
+    display: block;
+}
+.billbord.billbord_page .billbord__content {
+	padding-top: 104px;
+	padding-bottom: 145px;
+}
+.billbord.billbord_page .title-big {
+	font-size: 33px;
+	max-width: 306px;
+    margin-top: 25px;
+}
+.content-services .title-section {
+    font-size: 26px;
+}
+.content-services {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	max-width: 1170px;
+}
+.pricelist__head {
+	padding: 16px 0;
+	margin-bottom: 32px;
+}
+.pricelist__wrap {
+	gap: 12px;
+    flex-wrap: wrap;
+}
+.pricelist__column:nth-child(1) {
+	width: 100%;
+}
+.pricelist__column:nth-child(2) {
+	width: 100%;
+	text-align: left;
+}
+.pricelist__column:nth-child(3) {
+	width: 100%;
+}
+.pricelist__column:nth-child(4) {
+	width: 100%;
+}
+.pricelist {
+	margin-bottom: 34px;
+}
+.pricelist p {
+	margin-bottom: 20px;
+}
+.pricelist p:last-child {
+	margin-bottom: 0;
+}
+.info-services {
+	padding: 20px 20px;
+	margin-top: 16px;
+	border-radius: 16px;
+	border-width: 1.5px;
+}
+.services-section {
+	margin-top: 60px;
+}
+.content-services .head-section {
+	margin-bottom: 28px;
+}
+.item-rule {
+	padding: 20px 20px;
+	padding-bottom: 52px;
+	border-width: 1.5px;
+	border-radius: 16px;
+}
+.item-rule__number {
+	font-size: 58px;
+	margin-bottom: 16px;
+}
+.item-rule__payments img {
+    width: auto;
+    max-width: 100%;
+}
+.item-rule__payments {
+	margin: 16px 0;
+}
+.item-rule ul {
+	margin: 20px 0;
+	padding-left: 20px;
+}
+.item-rule__descr {
+	font-size: 14px;
+}
+.text-services ul li {
+	padding-left: 28px;
+	margin-bottom: 16px;
+}
+.text-services ul li::before {
+	width: 17px;
+	height: 16px;
+	top: 5px;
+}
+.text-services p {
+	margin-bottom: 16px;
+}
+.text-services {
+	font-size: 16px;
+}
+.services-section_text .head-section {
+	margin-bottom: 32px;
+}
+.row.row_rules > div {
+	padding: 0 8px;
+}
+.row.row_rules {
+	margin: 0 -8px;
+}
+.pricelist .title-block br {
+    display: none;
+}
+
+.content-page {
+	padding-bottom: 60px;
+	max-width: 1200px;
+}
+.breadcrumbs {
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+    display: block;
+}
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs li::after {
+	margin: 0 10px;
+	font-size: 10px;
+}
+.text-page {
+	font-size: 16px;
+}
+.page-data .head-section {
+	margin-bottom: 35px;
+}
+.text-page h5,
+.text-page h4,
+.text-page h3,
+.text-page h2,
+.text-page h6 {
+	font-size: 22px;
+	margin: 20px 0;
+}
+.text-page ul {
+	margin-bottom: 20px;
+}
+.text-page ul li {
+    padding-left: 22px;
+}
+.text-page ul li::before {
+    left: 3px;
+}
+.page-data .title-section {
+    font-size: 28px;
+}
 }
 
 /* Small Devices, Tablets */
