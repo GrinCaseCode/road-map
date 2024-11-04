@@ -29,7 +29,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
   
 
-  $(".billbord").on('mousemove', function(e) {
+  $(".billbord:not(.billbord_page)").on('mousemove', function(e) {
 
 	$('.billbord__image').each(function() {
 		var offsetX = (e.pageX / $(window).width() - 0.5) * 60;
