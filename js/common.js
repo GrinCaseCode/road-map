@@ -36,7 +36,7 @@ $(document).ready(function() {
 			$(".quiz").fadeOut(200);
 			$("body").removeClass("no-scroll");
 		}
-    });
+    }); 
 
     // Инициализация квиза
     showTab(currentTab);
