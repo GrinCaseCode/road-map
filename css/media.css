@@ -966,6 +966,9 @@
 .quiz__image img {
     border-radius: 0;
 }
+.quiz__wrapper {
+    height: 100%;
+}
 }
 
 /* Small Devices, Tablets */
