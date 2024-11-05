@@ -1,5 +1,52 @@
 $(document).ready(function() {
 
+	//Квиз
+
+	var $tabs = $('.tab-quiz');
+    var $nextBtn = $('.quiz__next');
+    var $backBtn = $('.quiz__back');
+    var $progressThumb = $('.progress__thumb');
+    var $progressValue = $('.progress__value span');
+    var currentTab = 0;
+
+    function showTab(index) {
+        $tabs.hide().eq(index).show();
+        updateProgress(index);
+    }
+
+    function updateProgress(index) {
+        var progress = (index + 1) / $tabs.length * 100;
+        $progressThumb.css('width', progress + '%');
+        $progressValue.text(Math.round(progress));
+    }
+
+    $nextBtn.on('click', function(e) {
+        e.preventDefault();
+        if (currentTab < $tabs.length - 1) {
+            currentTab++;
+            showTab(currentTab);
+        }
+    });
+
+    $backBtn.on('click', function() {
+        if (currentTab > 0) {
+            currentTab--;
+            showTab(currentTab);
+        } else {
+			$(".quiz").fadeOut(200);
+			$("body").removeClass("no-scroll");
+		}
+    });
+
+    // Инициализация квиза
+    showTab(currentTab);
+
+	$(".open-quiz").click(function(e) {
+		e.preventDefault();
+        $(".quiz").fadeIn(200);
+		$("body").addClass("no-scroll");
+      });
+
 
 //прилипающие меню
 var $menu = $(".header");
@@ -26,6 +73,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
       });
     }
   }
+
 
   
 
