@@ -907,14 +907,16 @@
 	max-width: 1200px;
 }
 .quiz__title {
-    margin-bottom: 25px;
-    font-size: 24px;
+    margin-bottom: 17px;
+    font-size: 18px;
 }
 .quiz__image img {
-	border-radius: 16px;
+    border-radius: 0;
+    max-width: 250px;
+    margin: 0 auto;
 }
 .radio-main span {
-    padding: 23px;
+    padding: 19px;
     padding-left: 70px;
     border-radius: 12px;
     font-size: 16px;
@@ -960,6 +962,9 @@
 }
 .progress__value {
 	margin-bottom: 16px;
+}
+.quiz__image img {
+    border-radius: 0;
 }
 }
 
