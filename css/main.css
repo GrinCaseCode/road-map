@@ -1434,7 +1434,7 @@ form {
 	height: 100%;
 	z-index: 1001;
 }
-.quiz__wrapper {
+.quiz__wrapper { 
 	height: 100vh;
 	overflow: auto;
 	display: flex;
